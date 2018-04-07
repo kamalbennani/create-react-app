@@ -26,7 +26,7 @@ module.exports = (resolve, rootDir, isEjecting) => {
     setupTestFrameworkScriptFile: setupTestsFile,
     testMatch: [
       '<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}',
-      '<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}',
+      '<rootDir>/src/**/(*.)(spec|test).js?(x)',
     ],
     testEnvironment: 'node',
     testURL: 'http://localhost',

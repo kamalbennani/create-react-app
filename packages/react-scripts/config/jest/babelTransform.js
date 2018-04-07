@@ -8,8 +8,10 @@
 'use strict';
 
 const babelJest = require('babel-jest');
+const customConfig = require('../customConfig');
 
 module.exports = babelJest.createTransformer({
   presets: [require.resolve('babel-preset-react-app')],
+  plugins: customConfig.babelPlugins,
   babelrc: false,
 });
