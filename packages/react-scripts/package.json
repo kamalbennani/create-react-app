@@ -1,5 +1,5 @@
 {
-  "name": "react-scripts",
+  "name": "schoomatic-react-scripts",
   "version": "0.0.1",
   "description": "Configuration and scripts for Schoomatic App.",
   "repository": "schoomatic/create-react-app",
@@ -64,6 +64,8 @@
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   },
